@@ -1,5 +1,5 @@
 var menuItem = {
-    "id": "wikipop",
+    "id": "wandsearch",
     "title": "Wikiwand!",
     "contexts": ["selection"]
 };
@@ -10,7 +10,7 @@ function fixedEncodeURI (str) {
 }
 
 chrome.contextMenus.onClicked.addListener(function(clickData){
-    if (clickData.menuItemId == "wikipop" && clickData.selectionText){
+    if (clickData.menuItemId == "wandsearch" && clickData.selectionText){
         var wikiURL = "https://www.wikiwand.com/en/" + fixedEncodeURI(clickData.selectionText);
         var createData = {
             "url": wikiURL,
