@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Wikipop",
+    "version": "1.0",
+    "description": "Search Wikipedia whenever wherever.",
+    "icons": {
+        "128": "images/icon128.png",
+        "48": "images/icon48.png",
+        "16": "images/icon16.png"
+    },
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs",
+        "contextMenus"
+    ]
+}
