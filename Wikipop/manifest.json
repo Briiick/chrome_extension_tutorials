@@ -1,8 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "Wikipop",
+    "name": "Wikiwand Searcher",
+    "short_name": "Wandsearch",
     "version": "1.0",
-    "description": "Search Wikipedia whenever wherever.",
+    "description": "Search Wikiwand whenever wherever.",
     "icons": {
         "128": "images/icon128.png",
         "48": "images/icon48.png",
