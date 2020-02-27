@@ -1,6 +1,6 @@
 var menuItem = {
     "id": "wikipop",
-    "title": "Wikipop",
+    "title": "Wikiwand!",
     "contexts": ["selection"]
 };
 chrome.contextMenus.create(menuItem);
